@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mainbody{
+	background: url(../image/image.jpg);
+	font-family: 'Dosis', sans-serif;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.content{
+	background: #ffffffe0;
+	width: 268px;
+	height: 407px;
+	border-radius: 7px;
+	padding: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.mainbody img{
+    max-width: 260px;
+    display: block;
+    margin: 0 auto;
+    margin bottom: 5;
+}
+.mainbody form{
+	width 100%;
+	}
+.mainbody label{
+	display:block;
+}
+.mainbody input{
+
+border: 1px solid #ccc;
+
+display: block;
+
+width: 100%;
+
+height: 35px;
+
+margin-bottom: 22px;
+
+border-radius: 6px;
+}
+ input[type = "submit"]{
+ 	
+background: #ec202a;
+ 	
+width: 26%;
+ 	
+margin-top: 14%;
+ 	
+margin-left: 38%;
+transition: all 0.1s linear;
+
+ 	
+color: white;
+ }
+input[type = "text"] , input[type = "password"] {
+	padding: 0px 10px;
+}
+input[type="submit"]:hover {
+	transform: scale(1.09);
+	background: #ffffff;
+	color: #ec202a;
+}
